@@ -10,7 +10,7 @@ def make_readable(seconds):
 # Solution 2
 
 def make_readable(seconds):
-    return '{:02}:{:02}:{:02}'.format(seconds//3600, seconds//60%60, seconds%60)
+    return '{:02}:{:02}:{:02}'.format(seconds//3600, seconds//60 % 60, seconds % 60)
 
 
 # HH = hours, padded to 2 digits, range: 00 - 99
