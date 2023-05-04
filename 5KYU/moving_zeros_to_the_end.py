@@ -4,5 +4,5 @@ def move_zeros(lst):
     return numbers+zeros
 
 
-lst = [1, 0, 1, 2, 0, 1, 3]
+lst = [1, 0, 1, 2, 0, 1, 5]
 print(move_zeros(lst))
