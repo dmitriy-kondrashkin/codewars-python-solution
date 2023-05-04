@@ -7,5 +7,5 @@ def rgb(r, g, b):
 # rgb(148, 0, 211)      # returns 9400D3
 
 
-r, g, b = -20, 275, 130
+r, g, b = -20, 275, 125
 print(rgb(r, g, b))
