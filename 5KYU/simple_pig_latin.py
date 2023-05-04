@@ -1,5 +1,6 @@
 def pig_it(text):
-    return ' '.join([word[1:]+word[:1] + 'ay' if word.isalpha() else word for word in text.split()])
+    return ' '.join([word[1:]+word[:1] + 'ay' if word.isalpha() 
+                     else word for word in text.split()])
 
 text_1 = 'Pig latin is cool'                # igPay atinlay siay oolcay
 text_2 = 'Hello world !'                    # elloHay orldway ! 
